@@ -11,7 +11,7 @@ function Navbar(): JSX.Element {
   return (
     <nav className="navbar" style={{ justifyContent: 'space-between', alignItems: 'center', padding: '1rem 2rem' }}>
          <div className="logo-container">
-          <img src="/src/assets/navbarlogo.png" alt="Urtechsoft Logo" className="nav-logo" />
+          <img src="/navbarlogo.png" alt="Urtechsoft Logo" className="nav-logo" />
         </div>
       <div className="nav-links">
         <Link to="/"> {t("home_title")} </Link> |{" "}
