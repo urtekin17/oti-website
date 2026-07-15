@@ -11,7 +11,7 @@ const Contact: React.FC = () => {
         <h1>{t("contact_title")}</h1>
         <p>{t("contact_text")}</p>
         <p>
-          <strong>Email:</strong> urtechsoft@gmail.com
+          <strong>Email: </strong> urtechsoft@gmail.com
         </p>
         <a
           href="https://www.linkedin.com/in/nuri-urtekin-8b31ba152/"
