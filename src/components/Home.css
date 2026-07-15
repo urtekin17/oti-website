@@ -1,0 +1,48 @@
+.hero-full {
+  height: 100vh; /* Tüm ekran yüksekliği */
+  width: 100%;
+  background-image: url("/src/assets/otilogo.png"); /* Logonun yolu */
+  background-size: cover; /* Görseli ekranı dolduracak şekilde ölçekler */
+  background-position: center; /* Ortalar */
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* Görselin üstüne yarı saydam bir katman */
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  text-align: center;
+  color: #f1f5f9;
+}
+
+.overlay h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.overlay p {
+  font-size: 1.3rem;
+  color: #94a3b8;
+  margin-bottom: 1.5rem;
+}
+
+button {
+  background-color: #38bdf8;
+  border: none;
+  padding: 0.8rem 1.8rem;
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0ea5e9;
+}

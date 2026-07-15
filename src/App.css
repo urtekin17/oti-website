@@ -1,0 +1,61 @@
+/* Genel stil */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+/* Navbar */
+nav {
+  background-color: #1e293b; /* koyu lacivert ton */
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+nav a {
+  color: #f1f5f9;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #38bdf8; /* açık mavi hover efekti */
+}
+
+/* Sayfa içerikleri */
+h1 {
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+
+p {
+  max-width: 600px;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+/* Container */
+.container {
+  padding: 3rem;
+  text-align: center;
+}
+
+/* Buton örneği */
+button {
+  background-color: #38bdf8;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 6px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0ea5e9;
+}
