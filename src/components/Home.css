@@ -2,7 +2,7 @@
   height: 100vh; /* Tüm ekran yüksekliği */
   width: 100%;
   background-image: url("/src/assets/otilogo.png"); /* Logonun yolu */
-  background-size: cover; /* Görseli ekranı dolduracak şekilde ölçekler */
+  background-size: contain; /* Görseli ekranı dolduracak şekilde ölçekler */
   background-position: center; /* Ortalar */
   background-repeat: no-repeat;
   display: flex;
